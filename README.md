@@ -5,6 +5,6 @@ An Android App that tracks worldwide spread of Coronavirus(COVID-19)
  
  ## Screenshot
  
- ![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+ ![alt text](https://github.com/eco4ndly/Tracorona/blob/master/device-2020-03-16-022312.png)
 
 
