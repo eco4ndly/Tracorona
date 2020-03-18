@@ -1,0 +1,18 @@
+<resources>
+  <string name="app_name">Tracorona</string>
+  <string name="sub_header">Track Corona(COVID-19) Spread Realtime</string>
+
+  <string name="country">Country: %1$s</string>
+  <string name="latest_num">Total Number: %1$d</string>
+  <string name="province">Province: %1$s</string>
+
+  <string name="world_wide_total_number">Worldwide Total Number: %1$d</string>
+  <string name="last_updated_on">Last Updated On: %1$s</string>
+  <string name="sort_by_number">Sort By Number</string>
+  <string name="sort_by_country_name">Sory by Country Name</string>
+  <string name="source"><u>Source: %1$s</u></string>
+  <string name="info">Info</string>
+    <string name="data_info">The data comes from the 2019 Novel Coronavirus (nCoV) Data Repository, provided by JHU CCSE. It is programmatically retrieved, re-formatted and stored in the cache for one hour.</string>
+  <string name="more">More</string>
+    <string name="search">Search...</string>
+</resources>
