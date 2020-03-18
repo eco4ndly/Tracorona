@@ -31,28 +31,6 @@ class InfoActivity : AppCompatActivity() {
     super.onCreate(savedInstanceState)
     binding = ActivityInfoBinding.inflate(layoutInflater)
     setContentView(binding.root)
-    /*val str = getString(R.string.data_info)
-    val strToClickable = "Novel Coronavirus (nCoV) Data Repository, provided by JHU CCSE"
-    val startPoint = str.indexOf(strToClickable)
-    val endPoint = startPoint + strToClickable.length
-    val ss = SpannableString(str)
-    val clickableSpan: ClickableSpan = object : ClickableSpan() {
-      override fun onClick(p0: View) {
-        Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/CSSEGISandData/COVID-19")).apply {
-          startActivity(this)
-        }
-      }
-
-      override fun updateDrawState(ds: TextPaint) {
-        super.updateDrawState(ds)
-        ds.isUnderlineText = true
-      }
-    }
-    ss.setSpan(clickableSpan, startPoint, endPoint, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
-
-    binding.dataInfo.text = ss
-    binding.dataInfo.movementMethod = LinkMovementMethod.getInstance()
-    binding.dataInfo.highlightColor = Color.TRANSPARENT*/
 
     binding.dataInfo.makeTextPortionClickable(
         body = getString(R.string.data_info),
